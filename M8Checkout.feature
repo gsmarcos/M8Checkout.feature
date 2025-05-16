@@ -4,9 +4,7 @@ Funcionalidade: Cadastro para finalizar compra
     Dado que o cliente está na tela de cadastro do checkout
 
   Esquema do Cenário: Validação de cadastro com dados inválidos
-    Quando o cliente tenta se cadastrar com os seguintes dados:
-      | nome        | email              | telefone     | endereço    |
-      | <nome>      | <email>            | <telefone>   | <endereco>  |
+    Quando o cliente tenta se cadastrar com os seguintes dados <nome>,<email>,<telefone>,<endereco> 
     Então o sistema deve exibir a mensagem "<mensagem>"
 
     Exemplos:
